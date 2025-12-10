@@ -30,5 +30,7 @@ app = BADBOT()
 
 userbot = Userbot()
 
+from .platforms import PlaTForms
+
 Platform = PlaTForms()
 HELPABLE = {}
