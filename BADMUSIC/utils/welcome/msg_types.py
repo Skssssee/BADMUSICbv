@@ -1,6 +1,8 @@
 from enum import IntEnum, unique
 
 from pyrogram.types import Message
+import re
+from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 
 BTN_URL_REGEX = re.compile(
     r"(\[([^\[]+?)\]\(buttonurl:(?:/{0,2})(.+?)(:same)?\))"
