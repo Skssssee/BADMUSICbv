@@ -7,12 +7,12 @@ from ..logging import LOGGER
 LOGGER(__name__).info("Connecting to your Mongo Database...")
 try:
     _mongo_async_ = AsyncIOMotorClient(MONGO_DB_URI)
-    mongodb = _mongo_async_.Alexa
+    mongodb = _mongo_async_.BADMUSIC
     LOGGER(__name__).info("Connected to your Mongo Database.")
 except Exception:
     LOGGER(__name__).error("Failed to connect to your Mongo Database.")
     exit()
 
-## Database For Broadcast Subscription By Team Alexa
+## Database
 MONGODB_CLI = AsyncIOMotorClient(MONGO_DB_URI)
 db = MONGODB_CLI["subscriptions"]
