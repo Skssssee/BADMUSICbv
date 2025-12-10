@@ -2,6 +2,9 @@ from enum import IntEnum, unique
 
 from pyrogram.types import Message
 
+BTN_URL_REGEX = re.compile(
+    r"(\[([^\[]+?)\]\(buttonurl:(?:/{0,2})(.+?)(:same)?\))"
+)
 
 @unique
 class Types(IntEnum):
