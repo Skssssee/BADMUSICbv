@@ -42,7 +42,7 @@ CLEANMODE_DELETE_MINS = int(
 # Custom max audio(music) duration for voice chat. set DURATION_LIMIT in variables with your own time(mins), Default to 60 mins.
 
 DURATION_LIMIT_MIN = int(
-    getenv("DURATION_LIMIT", "3000")
+    getenv("DURATION_LIMIT", "30")
 )  # Remember to give value in Minutes
 
 
@@ -99,7 +99,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # For customized or modified Repository
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/PbxBad/BADMUSIC",
+    "1https://github.com/Skssssee/BADMUSICbv",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 
@@ -115,11 +115,11 @@ SUPPORT_CHANNEL = getenv(
     "SUPPORT_CHANNEL", "https://t.me/HEROKUBIN_01"
 )  # Example:- https://t.me/HEROKUBIN_01
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/PBX_CHAT"
+    "SUPPORT_GROUP", "https://t.me/jasminemusicgc"
 )  # Example:- https://t.me/TG_FRIENDSS
 
 SUPPORT_CHAT = getenv(
-    "SUPPORT_GROUP", "https://t.me/PBX_CHAT"
+    "SUPPORT_GROUP", "https://t.me/jasminemusicgc"
 )  # Example:- https://t.me/TG_FRIENDSS
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", False)
@@ -142,7 +142,7 @@ TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "5"))
 
 
 # Your Github Repo.. Will be shown on /start Command
-GITHUB_REPO = getenv("GITHUB_REPO", "https://github.com/Badhacker98/BADMUSIC")
+GITHUB_REPO = getenv("GITHUB_REPO", "https://github.com/Badhacker98/iBADMUSIC")
 
 
 # Spotify Client.. Get it from https://developer.spotify.com/dashboard
@@ -160,7 +160,7 @@ VIDEO_STREAM_LIMIT = int(getenv("VIDEO_STREAM_LIMIT", "999"))
 SERVER_PLAYLIST_LIMIT = int(getenv("SERVER_PLAYLIST_LIMIT", "500"))
 
 # MaximuM limit for fetching playlist's track from youtube, spotify, apple links.
-PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", "500"))
+PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", "8"))
 
 
 # Telegram audio  and video file size limit
