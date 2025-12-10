@@ -256,7 +256,7 @@ queue_4 : "<blockquote><b>✨ ᴛʀᴀᴄᴋ ʀᴇsᴇʀᴠᴇᴅ — ᴘʟᴀʏ
 queue_5 : "ᴏɴʟʏ ᴏɴᴇ ᴛʀᴀᴄᴋ ɪs ɪɴ ǫᴜᴇᴜᴇ, ᴀᴅᴅ sᴏᴍᴇ ᴍᴏʀᴇ ᴛʀᴀᴄᴋs ɪɴ ǫᴜᴇᴜᴇ ᴛᴏ ᴄʜᴇᴄᴋ ᴡʜᴏʟᴇ ǫᴜᴇᴜᴇ."
 
 # All Streaming Lines
-stream_1 : "<blockquote><b>🎬 sᴛʀᴇᴀᴍ ʜᴀs sᴛᴀʀᴛᴇᴅ. ᴇɴᴊᴏʏ ᴛʜᴇ ᴍᴜsɪᴄ |</b></blockquote>\n<blockquote><b>🎧 ᴛɪᴛʟᴇ :</b> <a href={0}>{1}</a>\n<b>⏱️ ʟᴇɴɢᴛʜ :</b> {2} ᴍɪɴs\n<b>🥀 ʀᴇǫᴜᴇsᴛᴇʀ :</b> {3}‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ </blockquote>"
+stream_1 : "<blockquote><b>🎬 sᴛʀᴇᴀᴍ ʜᴀs sᴛᴀʀᴛᴇᴅ. ᴇɴᴊᴏʏ ᴛʜᴇ ᴍᴜsɪᴄ |</b></blockquote>\n<blockquote><b>🎧 ᴛɪᴛʟᴇ :</b> <a href=[{0}]({1})</a>\n<b>⏱️ ʟᴇɴɢᴛʜ :</b> {2} ᴍɪɴs\n<b>🥀 ʀᴇǫᴜᴇsᴛᴇʀ :</b> {3}‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ </blockquote>"
 stream_2 : "<blockquote><b>🎬 sᴛʀᴇᴀᴍ ʜᴀs sᴛᴀʀᴛᴇᴅ. ᴇɴᴊᴏʏ ᴛʜᴇ ᴍᴜsɪᴄ |</b></blockquote>\n<blockquote><b>🎧 sᴛʀᴇᴀᴍ ᴛʏᴘᴇ :</b> ʟɪᴠᴇ sᴛʀᴇᴀᴍ [ 𝖴𝗋𝗅 ]\n<b>🥀 ʀᴇǫᴜᴇsᴛᴇʀ :</b> {0}</blockquote>"
 
 V_C_1 : "ғᴇᴛᴄʜɪɴɢ ᴘᴀʀᴛɪᴄɪᴘᴀɴᴛs ʟɪsᴛ...."
