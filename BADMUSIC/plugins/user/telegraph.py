@@ -3,7 +3,7 @@ from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from BADMUSIC import app
 from BADMUSIC.misc import SUDOERS as SUDO_USER
-from TheApi import api
+from TheAPI import api
 from pyrogram import filters, Client
 
 @Client.on_message(filters.command("tm", prefixes=".") & SUDO_USER)
