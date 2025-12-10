@@ -1,7 +1,6 @@
-from enum import IntEnum, unique
-
-from pyrogram.types import Message
 import re
+from enum import IntEnum, unique
+from pyrogram.types import Message
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 
 BTN_URL_REGEX = re.compile(
